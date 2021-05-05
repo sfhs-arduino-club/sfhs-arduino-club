@@ -61,9 +61,9 @@ void loop() {
 
   // print out the mapped values
   Serial.print("Mapped sensor Values \t red: ");
-  Serial.print(redValue);
-  Serial.print("\t green: ");
   Serial.print(greenValue);
+  Serial.print("\t green: ");
+  Serial.print(redValue);
   Serial.print("\t Blue: ");
   Serial.println(blueValue);
 

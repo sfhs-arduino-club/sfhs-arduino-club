@@ -37,10 +37,10 @@ void loop() {
     digitalWrite(4, LOW);  // turn the red LED on pin 4 off
     digitalWrite(5, HIGH); // turn the red LED on pin 5 on
     // wait for a quarter second before changing the light
-    delay(250);
+    delay(1000);
     digitalWrite(4, HIGH); // turn the red LED on pin 4 on
     digitalWrite(5, LOW);  // turn the red LED on pin 5 off
     // wait for a quarter second before changing the light
-    delay(250);
+    delay(1000);
   }
 }
